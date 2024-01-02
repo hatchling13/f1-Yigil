@@ -10,8 +10,7 @@ defaults:
     working-directory: ./frontend
 
 jobs:
-  build:
-    name: Install dependencies
+  test:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
